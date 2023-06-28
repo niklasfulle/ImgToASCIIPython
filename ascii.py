@@ -32,19 +32,12 @@ def grayscale(pixelValues):
     grayValue = int((red+green+blue)/3)
     return grayValue
 
-image = Image.open('images/loewe.jpg')
+image = Image.open('images/mario_small.png')
 pixels = image.load()
 tuple_size = image.size;
-print (pixels[1,1])
 
 height = int(tuple_size[0])
 width = int(tuple_size[1])
-
-print (type(pixels[1,1]))
-
-print(tuple_size)
-
-print(intMappedToChar(1))
 
 output_string = str("")
 
@@ -54,6 +47,6 @@ for y in range(0, width):
     output_string += '\n'
 print (output_string)
 
-data = open('file.txt', 'a')
+data = open('output.txt', 'a')
 data.write(output_string)
 data.close()

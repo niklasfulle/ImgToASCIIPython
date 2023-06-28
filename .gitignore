@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 
 file.txt
+output.txt
