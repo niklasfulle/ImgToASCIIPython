@@ -1,6 +1,6 @@
 # Img to ASCII Converter Python
 
-## Overview
+## Table of contents
 
 -   [Description](#description)
 -   [Build Dependencies](#build-dependencies)
